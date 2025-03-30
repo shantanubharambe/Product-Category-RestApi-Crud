@@ -1,4 +1,3 @@
-# Product-Category-RestApi-Crud
 # Product-Category REST API (CRUD)
 
 ## 📌 Overview
@@ -17,4 +16,24 @@ This is a **Spring Boot REST API** that allows CRUD operations on **Categories**
 ✔️ **Pagination support** for large datasets  
 ✔️ **Exception handling** for invalid requests  
 
-## 📂 Project Structure
+## 🚀 API Endpoints
+
+### **📌 Category APIs**
+| Method | Endpoint | Description |
+|--------|---------|-------------|
+| **POST** | `/api/categories` | Create a new category |
+| **GET** | `/api/categories?page=0&size=10` | Get paginated list of categories |
+| **GET** | `/api/categories/{id}` | Get category details by ID |
+| **PUT** | `/api/categories/{id}` | Update an existing category |
+| **DELETE** | `/api/categories/{id}` | Delete a category by ID |
+
+### **📌 Product APIs**
+| Method | Endpoint | Description |
+|--------|---------|-------------|
+| **POST** | `/api/products` | Create a new product |
+| **GET** | `/api/products?page=0&size=10` | Get paginated list of products |
+| **GET** | `/api/products/{id}` | Get product details by ID |
+| **PUT** | `/api/products/{id}` | Update an existing product |
+| **DELETE** | `/api/products/{id}` | Delete a product by ID |
+
+---
